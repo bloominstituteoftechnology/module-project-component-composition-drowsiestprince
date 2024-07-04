@@ -7,6 +7,7 @@ body {
   font-family: 'Titillium Web', sans-serif;
   display: flex;
   flex-direction: column;
+  background-color: black;
 }
 
 #root {
@@ -15,8 +16,21 @@ body {
   align-items: center;
 }
 
+p {
+  color:#FAF9F6;
+}
+
+h1 {
+  border-top: 5px solid gold;
+  border-bottom: 5px solid gold;
+  background-color: navy;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 h1, h2 {
-  color: #93005a;
+  color:#FAF9F6;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 #root {
@@ -24,8 +38,6 @@ h1, h2 {
   overflow-y: auto;
   border-top: 1px solid grey;
   border-bottom: 1px solid grey;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 
 header, footer {
